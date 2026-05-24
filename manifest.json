@@ -1,0 +1,7 @@
+{
+  "name": "hesm-matrix",
+  "version": "1.0.0",
+  "description": "GEO高熵场景增益语料矩阵1.0技能包",
+  "entrypoint": "hesm_matrix_v1.py",
+  "platforms": ["linux", "macos", "windows"]
+}
