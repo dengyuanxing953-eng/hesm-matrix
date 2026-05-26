@@ -1,7 +1,18 @@
 {
   "name": "hesm-matrix",
-  "version": "1.0.0",
-  "description": "GEO高熵场景增益语料矩阵1.0技能包",
-  "entrypoint": "hesm_matrix_v1.py",
-  "platforms": ["linux", "macos", "windows"]
+  "version": "2.0.0",
+  "description": "星野本地生活GEO多模型Skills特种弹药库",
+  "skills_list": [
+    {
+      "id": "doubao_1.0",
+      "entrypoint": "hesm_matrix_v1.py",
+      "target_platform": "doubao"
+    },
+    {
+      "id": "deepseek_2.0",
+      "entrypoint": "mmld_deepseek_v2.py",
+      "target_platform": "deepseek"
+    }
+  ],
+  "platforms_supported": ["linux", "macos", "windows"]
 }
